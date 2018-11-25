@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<EmojiTemplate>
+			<entry>
+				<REMARK0>#EmojiTemplate</REMARK0>
+				<EmojiID>EmojiID</EmojiID>
+				<sName>名称</sName>
+				<iGroup>表情组</iGroup>
+				<sUrl>表情Url</sUrl>
+				<sDesc>描述</sDesc>
+				<REMARK1>-</REMARK1>
+				<REMARK2>-</REMARK2>
+			</entry>
+			<entry>
+				<REMARK0>#类型</REMARK0>
+				<EmojiID>int32</EmojiID>
+				<sName>string</sName>
+				<iGroup>int32</iGroup>
+				<sUrl>string</sUrl>
+				<sDesc>string</sDesc>
+			</entry>
+		</EmojiTemplate>
+	</data>
+</root>

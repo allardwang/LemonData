@@ -1,0 +1,19 @@
+package Pb;
+
+enum PlyerOperationType {
+    NONE = 0;
+    REGISTER = 1;
+    LOGIN = 2;
+}
+
+message PlayerRequest {
+    required PlyerOperationType type = 1;
+    optional string playerName = 2;
+}
+
+message RegisterNotify {
+    required PlyerOperationType type = 1;
+    optional bool success = 2;
+    optional int64 account = 3;
+    optional string playerName = 4;
+}

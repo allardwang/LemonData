@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<Avatar>
+			<entry>
+				<REMARK0>#Avatar</REMARK0>
+				<id>头像id</id>
+				<scale>缩放</scale>
+				<name>头像名称</name>
+				<url>资源url</url>
+				<REMARK1>-</REMARK1>
+				<REMARK2>-</REMARK2>
+			</entry>
+			<entry>
+				<REMARK0>#类型</REMARK0>
+				<id>Int32</id>
+				<scale>float</scale>
+				<name>string</name>
+				<url>string</url>
+			</entry>
+			<entry>
+				<id>1</id>
+				<scale>1</scale>
+				<name>剑圣</name>
+				<url>ui://Common</url>
+			</entry>
+		</Avatar>
+	</data>
+</root>

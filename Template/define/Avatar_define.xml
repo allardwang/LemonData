@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Avatar key = "id"> 
+	<id type = "Int32" comment="头像id" />
+	<scale type = "float" comment="缩放" />
+	<name type = "string" comment="头像名称" />
+	<url type = "string" comment="资源url" />
+</Avatar>

@@ -1,0 +1,14 @@
+package Pb;
+import "Player.proto";
+
+message UserRequest {
+    required PlyerOperationType type = 1;
+    optional string playerName = 2;
+}
+
+message UserNotify {
+    required PlyerOperationType type = 1;
+    optional bool success = 2;
+    optional int64 account = 3;
+    optional string playerName = 4;
+}
