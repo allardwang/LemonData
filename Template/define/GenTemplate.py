@@ -17,8 +17,8 @@ import xml.dom.minidom as minidom
 #Time：2018-11
 #
 
-OutFilePath_cs = r"E:\Unity2017Work\GameFrameWork\Data\Proto\OutPut"
-OutFilePath_Xml = r"E:\Unity2017Work\GameFrameWork\Data\Template"
+OutFilePath_cs = r"E:\Unity2017Work\Lemon\Client\Lemon\Assets\DataTables"
+OutFilePath_Xml = r"E:\Unity2017Work\Lemon\Data\Template"
 TablesName_cs = "Tables.cs"
 Namespace_cs = "Tables"
 
@@ -66,7 +66,7 @@ def GenerateClass(className, classkey, classValue):
     fp.writelines("\t{\n")
     for kv in classValue:
         t = classValue[kv]["type"]
-        if t == "int32":
+        if t.lower() == "int32":
             t="int"
         fp.writelines("\t\tpublic "+ t +" "+kv+";"+"\n")
     fp.writelines("\t}\n")

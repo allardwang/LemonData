@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<data>
 		<Avatar>
@@ -20,9 +20,27 @@
 			</entry>
 			<entry>
 				<id>1</id>
-				<scale>1</scale>
+				<scale>1.5</scale>
 				<name>剑圣</name>
-				<url>ui://Common</url>
+				<url>ui://Common/jiansheng</url>
+			</entry>
+			<entry>
+				<id>2</id>
+				<scale>1.5</scale>
+				<name>武器大师</name>
+				<url>ui://Common/wuqidashi</url>
+			</entry>
+			<entry>
+				<id>3</id>
+				<scale>1.5</scale>
+				<name>兰博</name>
+				<url>ui://Common/lanbo</url>
+			</entry>
+			<entry>
+				<id>4</id>
+				<scale>1.5</scale>
+				<name>薇恩</name>
+				<url>ui://Common/weien</url>
 			</entry>
 		</Avatar>
 	</data>

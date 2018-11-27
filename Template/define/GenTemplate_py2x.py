@@ -68,7 +68,7 @@ def GenerateClass(className, classkey, classValue):
     fp.writelines("\t{\n")
     for kv in classValue:
         t = classValue[kv]["type"]
-        if t == "int32":
+        if t.lower() == "int32":
             t="int"
         fp.writelines("\t\tpublic "+ t +" "+kv+";"+"\n")
     fp.writelines("\t}\n")
