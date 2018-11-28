@@ -6,7 +6,7 @@ import sys
 import string
 import xml.dom.minidom as minidom
 
-OutFilePath_Json = r"E:\Unity2017Work\Lemon\AssetsData\Templates"
+OutFilePath_Json = r"E:\Unity2017Work\Lemon\Lemon_assetsdata\Templates"
 
 def GetFileList(dirPath):
     fileList=[]

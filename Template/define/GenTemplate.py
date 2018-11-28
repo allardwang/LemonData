@@ -17,8 +17,8 @@ import xml.dom.minidom as minidom
 #Time：2018-11
 #
 
-OutFilePath_cs = r"E:\Unity2017Work\Lemon\Client\Lemon\Assets\DataTables"
-OutFilePath_Xml = r"E:\Unity2017Work\Lemon\Data\Template"
+OutFilePath_cs = r"E:\Unity2017Work\Lemon\Lemon_client\Assets\DataTables"
+OutFilePath_Xml = r"E:\Unity2017Work\Lemon\Lemon_data\Template"
 TablesName_cs = "Tables.cs"
 Namespace_cs = "Tables"
 
