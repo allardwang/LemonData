@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<EmojiTemplate key="EmojiID">
-    <EmojiID type="int32" comment="EmojiID" />
-    <sName type="string" comment="名称" size="64" />
-    <iGroup type="int32" comment="表情组"/>
-    <sUrl type="string" comment="表情Url" size="64" />
-    <sDesc type="string" comment="描述" size="256" />
-</EmojiTemplate>

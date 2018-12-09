@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UITemplate key="id">
+    <id type="int32" comment="id" />
+    <sName type="string" comment="UI名称" size="64" />
+    <sPkgName type="string" comment="包名称" size="64" />
+    <sCompName type="string" comment="组件名称" size="64" />
+    <sDesc type="string" comment="描述" size="256" />
+</UITemplate>

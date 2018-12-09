@@ -40,7 +40,7 @@ def XMLDefineHandle(filePath):
     root = tree.getroot()
     _tableName = root.tag
     _rootAttr = root.attrib
-    key = "id"
+    key = "null"
     if "key" in _rootAttr:
         key = _rootAttr["key"]
     
@@ -62,13 +62,20 @@ def GenerateClass(className, classkey, classValue):
     fp = open(fileNmae,"a")
     fp.writelines("\nnamespace "+ Namespace_cs+"\n")
     fp.writelines("{"+"\n")
-    fp.writelines("\tpublic class "+className+"\n")
+    fp.writelines("\tpublic class "+className+" : LookupData<int>"+"\n")
     fp.writelines("\t{\n")
+    isHasKey = False
     for kv in classValue:
+        if classkey == kv:
+            isHasKey = True
         t = classValue[kv]["type"]
         if t.lower() == "int32":
             t="int"
         fp.writelines("\t\tpublic "+ t +" "+kv+";"+"\n")
+    
+    if isHasKey:
+        fp.writelines("\t\tpublic int GetKey() { return " + classkey +" ; }" + "\n")
+
     fp.writelines("\t}\n")
     fp.writelines("}\n")
     fp.close()
