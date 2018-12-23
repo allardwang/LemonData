@@ -74,7 +74,7 @@ def GenerateClass(className, classkey, classValue):
         fp.writelines("\t\tpublic "+ t +" "+kv+";"+"\n")
     
     if isHasKey:
-        fp.writelines("\t\tpublic int GetKey() { return " + classkey +" ; }" + "\n")
+        fp.writelines("\t\tpublic int GetKey() { return " + classkey + "; }" + "\n")
 
     fp.writelines("\t}\n")
     fp.writelines("}\n")
