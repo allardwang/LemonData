@@ -83,3 +83,12 @@ python 2.x使用GenTemplate_py2x.py
 ```
 可以使用Excel或者Notepad++等文本工具编辑，然后运行同目录下的GenJson.py文件
 会将json文件输出到指定目录，编辑GenJson.py即可配置输出路径
+输出内容如下：
+```
+{"entry":[
+{"id":1,"scale":1.5,"name":"剑圣","url":"ui://Common/jiansheng"},
+{"id":2,"scale":1.5,"name":"武器大师","url":"ui://Common/wuqidashi"},
+{"id":3,"scale":1.5,"name":"兰博","url":"ui://Common/lanbo"},
+{"id":4,"scale":1.5,"name":"薇恩","url":"ui://Common/weien"}
+]}
+```
